@@ -51,6 +51,7 @@ function Footer() {
       </div>
       "NEW ADDED"
       "Changes by TAMMANA"
+      "CHnages ny Aparna"
     </div>
   )
 }
