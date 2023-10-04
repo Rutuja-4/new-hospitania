@@ -1,0 +1,92 @@
+.Search_bar{
+    height: 30px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+}
+.Logo{
+    height: 20px;
+    width: 17%;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.img{
+    height: 20px;
+    width: 105px;
+    margin-bottom: 6px;
+}
+
+.Search{
+    height: 15px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-size: 8px;
+}
+.Login{
+    height: 15px;
+    width: 150px;
+    /* border: 1px solid black; */
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-left:10px ;  
+
+}
+.Login p{
+    padding: 4px;
+}
+.button{
+    /* border: 1px solid black;
+
+border-radius: 0%; */
+border:none ;
+
+    width: 30px;
+    padding: 2px;
+    background-color: white;
+}
+/* ======================================================================================= */
+.DropDownnav{
+height: 20px;
+width: 80%;
+margin: auto;
+border: 1px solid black;
+}
+.Maincontainer{
+    height: 20px;
+    width: 70%;
+    margin-right: auto;
+    display: flex;
+    border: 1px solid red;
+
+}
+.container{
+    position: relative;
+    width: auto;
+    height: 20px;
+    border: 1px solid rgb(62, 16, 114);
+    font-family: Nunito, sans-serif;
+   
+    font-size: 08px ;
+    padding: 2px;  
+      
+}
+
+.Unorderlist{
+    list-style-type: none;
+    font-family: Nunito, sans-serif;
+    font-weight:100;
+    font-size: 08px;
+    align-content: center;
+    
+}
+.list{
+    padding: 2px;
+    justify-content: center;
+    text-align: left;
+    
+}
