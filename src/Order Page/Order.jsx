@@ -50,6 +50,7 @@ const Order = () => {
                     </tr>
 
                     <tr>
+                        
                         <td><a href="#"> 502TR872W2 </a> </td>
                         <td>	April 04, 2018</td>
                         <td> <button className='btn4'> Delivered </ button> </td>
@@ -59,7 +60,7 @@ const Order = () => {
 
                     <tr>
                         <td> <a href="#"> 47H76G09F33</a></td>
-                        <td>March 30, 2018</td>
+                        <td>March 30, 2018 </td>
                         <td> <button className='btn4'> Delivered </ button> </td>
                         <td> $86.40</td>
 
