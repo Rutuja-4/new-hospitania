@@ -1,9 +1,11 @@
-import Footer from "./Footer/Footer";
+
+import OrderDetails from "./Order Page/OrderDetails";
 
 function App() {
   return (
     <div className="App">
-      <Footer/>
+  
+      <OrderDetails />
     </div>
   );
 }
