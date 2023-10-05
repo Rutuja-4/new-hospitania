@@ -1,0 +1,46 @@
+
+.btn1{
+    background-color: rgb(231,246,248);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    height: 28px;
+
+}
+
+.btn2{
+     background-color: rgb(251,234,236);
+     color: rgb(220,53,69);
+     border: none;
+     border-radius: 20px;
+     font-weight: bold;
+ 
+}
+
+.btn3{
+     background-color: rgb(255,249,230);
+     color: rgb(255,193,7);
+     border: none;
+     border-radius: 20px;
+     font-weight: bold;
+    
+}
+
+.btn4{
+    background-color: rgb(233,246,236);
+    color: rgb(40,167,69);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+#headings{
+    background-color: rgb(249,251,253);
+    color: rgb(149,180,218);
+    font-weight: bold;
+}
+.firstDiv{
+    background-color: rgb(52,58,64);
+    color: white;
+    height: 160px;
+}
