@@ -1,13 +1,15 @@
 import React from 'react'
 import style from '../Style/Shoppage.module.css'
 import products from './data.json'
+import { useNavigate } from 'react-router-dom'
 // import { grey } from '@mui/material/colors'
 
 
 function Shoppage() {
-    const handleSort=()=>{
-        products.sort()
-    }
+    const navigate= useNavigate()
+   const card1Nav=()=>{
+    navigate('/card1')
+   }
   return (
     <div className={style.mainContainer}>
         <div className={style.subConatiner1}>
@@ -89,13 +91,13 @@ function Shoppage() {
                 </div>
 
      {/*              ***SHOP CART***                        */}
-                    <p onClick={handleSort}>sort the images</p>
-              <div className={style.cardContainer}  >
+
+                  <div className={style.cardContainer}  >
                     {products.map((product)=>(
                         <div style={{margin:"10px", cursor:"pointer"}}>
                             <div className={style.cardImageConatiner} id={style.imageHover}>
-                            <img src={product.images} alt="" height={150} className={style.cardImage} />
-                            </div>
+                            <img src={product.images} alt="" height={150} className={style.cardImage} onClick={card1Nav}/>
+                            </div>  
                             
                             <div>
                             <span className="fa fa-star" style={{color:"orange"}}></span>
@@ -111,7 +113,7 @@ function Shoppage() {
                         </div>
 
                     ))}
-             </div> 
+                  </div> 
         
     </div>
   )
