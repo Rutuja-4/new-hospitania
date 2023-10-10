@@ -54,8 +54,6 @@ function Footer() {
           
             
       </div>
-      "NEW ADDED"
-      "Changes by TAMMANA"
     </div>
     </>
   )
