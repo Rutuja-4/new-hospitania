@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+}
+.cardImageConatiner{
+        height: 180px;
+        width: 180px;
+        background-color: #EDF1FC;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin:20px;
+       
+}
+.cardText{
+    font-family: Poppins,sans-Serif;
+    margin-top: 30px;
+    
+}
+.cardImage{
+        padding: 5px 5px 5px 40px;
+        
+}
+.cardImage:hover{
+    filter: blur(0);
+}
+.cardImage:hover{  
+    filter: blur(5);
+        
+}
+
+.brandsCheckbox{
+    width: 230px; /* Set the width of the box */
+    height: 200px;
+    overflow-y: scroll;
+    padding: 2px;
+    /* font-family:sans-serif; */
+    font-size: 12px;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    /* border: 1px solid black; */
+}
+
+.lineSpace{
+    line-height: 2.5;
+}
