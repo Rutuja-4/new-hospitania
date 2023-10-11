@@ -10,3 +10,55 @@ del{
 .card1-TB{
     display: flex;
 }
+.order-box{
+    /* width: 650px; */
+    padding: 10px;
+    margin: 0px ;
+}
+#hr1{
+    width: 650px;
+   margin-left: 20px;
+}
+.shipping{
+    height: 45px;
+    width: 3px;
+    background-color: rgb(15, 133, 236);
+    margin-left: 10px;
+    margin-top: 15px;
+   
+}
+
+
+.list{
+    /* line-height: -2; */
+    display: block;
+    font-size: 15px;
+}
+
+
+
+.shippingGrey{
+    height: 45px;
+    width: 3px;
+    margin-left: 10px;
+    background-color:rgb(224, 228, 240) ;
+    margin-top: 10px;
+}
+
+.last{
+    display: flex;
+}
+
+.trackingDiv{  
+    padding-bottom: 15px;
+    text-align: right;
+
+}
+.localShip{
+    color: orange;
+}
+
+.t-para{
+    margin-bottom: 45px;
+    padding-bottom: 17px;
+}

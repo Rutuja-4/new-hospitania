@@ -2,14 +2,23 @@ import React from 'react' ;
 import '../Style/order.css'
 import Footer from '../Footer/Footer';
 
+// import { Link } from 'react-router-dom';
+
+
 const Order = () => {
     return (
         <div>
-            <div className='firstDiv'>
-                {/* <h2> Wishlist </h2> */}
-            </div>
-
-            <table class="table">
+ <div className='firstDiv'>
+        
+        </div>
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+      
+    </div>
+    <div class="col-9">
+   
+    <table class="table">
                 <thead>
                     <tr>
                         <td id='headings'> ORDER #</td>
@@ -20,21 +29,27 @@ const Order = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td> <a href="#"> 34VB5540K83 </a></td>
+                        <td> 
+                            {/* <Link to='/34VB5540K83' />  */}
+                            34VB5540K83 </td>
                         <td>May 21, 2019</td>
                         <td> <button className='btn1'>In Progress </ button> </td>
                         <td>$358.75</td>
 
                     </tr>
                     <tr>
-                        <td>  <a href="#"> 78A643CD409 </a> </td>
+                        <td> 
+                            {/* <Link to='/78A643CD409 ' /> */}
+                             78A643CD409 </td>
                         <td>December 09, 2018</td>
                         <td> <button className='btn2'> Canceled</button> </td>
                         <td> $760.50</td>
 
                     </tr>
                     <tr>
-                        <td> <a href="#"> 112P45A90V2 </a> </td>
+                        <td>
+                             {/* <Link to='/112P45A90V2' />   */}
+                        112P45A90V2  </td>
                         <td>October 15, 2018</td>
                         <td> <button className='btn3'> Delayed </ button> </td>
                         <td>$1,264.00</td>
@@ -67,10 +82,19 @@ const Order = () => {
                     </tr>
                 </tbody>
             </table>
+    </div>
+     </div>
+  </div>
+
+
+
+           
+
+        
             
             <Footer />
         </div>
     )
 }
 
-export default Order
+export default Order ;
