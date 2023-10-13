@@ -1,6 +1,6 @@
 
 import React from "react";
-import CAFFINE from "../Images/CAFFEINE.webp";
+import CAFFEINE_1 from '../Images/CAFFEINE_1.jpg'
 import "../Style/orderDetails.css";
 
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
@@ -9,21 +9,48 @@ import CreditCardOutlinedIcon from '@mui/icons-material/CreditCardOutlined';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
 import ExpandCircleDownOutlinedIcon from '@mui/icons-material/ExpandCircleDownOutlined';
+import HomeIcon from '@mui/icons-material/Home';
+import Footer from "../Footer/Footer";
 
 
 const OrderDetails = () => {
   return (
     <>
+       <div className='firstDiv'>
+                <div className='container'>
+                    <div className="row">
+                        <div className="col-sm mt-5">
+                            <h1 className="h3 mb-0">Wishlist</h1>
+                        </div>
+                        <div className="col-sm pt-5 mt-5">
+                            <h5 className="mb-1 text-white">Order Details</h5>
+                            <p> You have full control to manage your own Account.</p>
+                        </div>
+                        <div className="col-sm ms-5">
+                            <nav aria-label="breadcrumb text-white">
+                                <ol className="breadcrumb mt-5 text-white">
+                                    <li className="breadcrumb-item "> <HomeIcon /> Home</li>
+                                    <li className="breadcrumb-item">  <HomeIcon />  Account </li>
+                                    <li className="breadcrumb-item active text-white" aria-current="page"> Wishlist </li>
+                                </ol>
+                            </nav>
+                            <div>
+                                <button type="button" class="btn blue-btn-TB"> Go Back </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
       <div className="row">
-        <div className="col-4"> </div>
-        <div className="border col-8">
+        <div className="col-4 mt-5 "> </div>
+        <div className="col-8 mb-5 mt-5 custom-border">
           <div className="card1-TB p-4 ">
          
             <div>
               <img
-                src={CAFFINE}
-                height={116}
-                width={65}
+                src={CAFFEINE_1 }
+                height={90}
+                width={80}
                 className="mt-3 img-caff"
               />
             </div>
@@ -91,6 +118,7 @@ const OrderDetails = () => {
 
         </div>
       </div>
+      <Footer />
     </>
   );
 };

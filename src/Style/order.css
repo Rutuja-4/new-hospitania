@@ -1,3 +1,34 @@
+.blue-btn-TB {
+    font-weight: bold;
+    text-align: center;
+    justify-content: flex-end;
+    margin-left: 155px;
+    margin: 15px;
+    width: 120px;
+    float: right;
+    font-size: 18px;
+    background-color: rgb(78,151,253);
+    color: white ;
+    padding: 5px;
+
+}
+.blue-btn-TB:hover{
+    background-color: rgb(12, 102, 228);
+    color: white ;
+}
+.order-tb{
+    width: 680px;
+    line-height: 2;
+    position: relative;
+    left: 380px;
+    margin-left: -10px;
+    font-size: 13px;
+
+}
+
+.breadcrumb{
+    float: right;
+}
 
 .btn1{
     background-color: rgb(231,246,248);
@@ -26,6 +57,12 @@
     
 }
 
+.ds{
+    position: absolute;
+    top: 100px;
+}
+
+
 .btn4{
     background-color: rgb(233,246,236);
     color: rgb(40,167,69);
@@ -38,9 +75,14 @@
     background-color: rgb(249,251,253);
     color: rgb(149,180,218);
     font-weight: bold;
+
 }
 .firstDiv{
     background-color: rgb(52,58,64);
     color: white;
-    height: 160px;
+    height: 180px;
+}
+.orderId-TB{
+    color:  rgb(78,151,253);
+    font-weight: bold;
 }

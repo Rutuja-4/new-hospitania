@@ -10,8 +10,16 @@ del{
 .card1-TB{
     display: flex;
 }
+.custom-border {
+
+    border: 1px solid rgba(246, 242, 242, 0.999);
+ 
+  }
+
+
+
 .order-box{
-    /* width: 650px; */
+    
     padding: 10px;
     margin: 0px ;
 }
@@ -30,7 +38,7 @@ del{
 
 
 .list{
-    /* line-height: -2; */
+   
     display: block;
     font-size: 15px;
 }
