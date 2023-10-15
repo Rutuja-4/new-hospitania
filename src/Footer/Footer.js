@@ -1,6 +1,9 @@
+
+
 import React from 'react'
 import style from '../Style/Footer.module.css'
 import img1 from '../Images/footer.png'
+
 
 const ULSize={
   fontWeight:"bold"
@@ -26,7 +29,17 @@ function Footer() {
             </div>
 
             <div className={style.footerFlexContent}>
+            <ul className={style.footerUL}>
+            <span style={ULSize}> Help</span> 
+              <li>Home</li>
+              <li>AboutUs</li>
+              <li>Business Partnership</li>
+              <li>Blog</li>
+              <li>ContactUs</li>
+              </ul>
+            </div>
 
+            <div className={style.footerFlexContent}>
             <ul className={style.footerUL}>
             <span style={ULSize}> Policy</span> 
               <li>Privacy Policy</li>
@@ -36,11 +49,11 @@ function Footer() {
               <li>Refund Policy</li>
               <li>Ip policy</li>
               </ul>
-
             </div>
+
             <div className={style.footerFlexContent}>
             <ul className={style.footerUL} >
-            <span style={ULSize}> UseFull Link</span> 
+            <span style={ULSize}> Social</span> 
               <li>Facebook</li>
               <li>Google</li>
               <li>Pinterest </li>
@@ -48,7 +61,7 @@ function Footer() {
               <li>Dribble</li>
             </ul>
             </div>
-      </div>
+        </div>
     </div>
   )
 }

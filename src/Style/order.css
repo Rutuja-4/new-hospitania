@@ -1,12 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.fontSizeP{
+    font-size: 15px;
+}
+
 .blue-btn-TB {
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     justify-content: flex-end;
     margin-left: 155px;
-    margin: 15px;
+    margin: 15px 0;
     width: 120px;
     float: right;
-    font-size: 18px;
     background-color: rgb(78,151,253);
     color: white ;
     padding: 5px;
@@ -20,10 +29,8 @@
     width: 680px;
     line-height: 2;
     position: relative;
-    left: 380px;
-    margin-left: -10px;
+    left: 450px;
     font-size: 13px;
-
 }
 
 .breadcrumb{
@@ -36,7 +43,6 @@
     border-radius: 20px;
     font-weight: bold;
     height: 28px;
-
 }
 
 .btn2{
@@ -45,7 +51,6 @@
      border: none;
      border-radius: 20px;
      font-weight: bold;
- 
 }
 
 .btn3{
@@ -54,14 +59,12 @@
      border: none;
      border-radius: 20px;
      font-weight: bold;
-    
 }
 
 .ds{
     position: absolute;
-    top: 100px;
+    top: 10px;
 }
-
 
 .btn4{
     background-color: rgb(233,246,236);
@@ -80,9 +83,19 @@
 .firstDiv{
     background-color: rgb(52,58,64);
     color: white;
-    height: 180px;
+    height: 190px;
 }
 .orderId-TB{
     color:  rgb(78,151,253);
     font-weight: bold;
+  
+}
+.links-TB{
+     text-decoration: none;
+     color:  rgb(78,151,253);
+}
+
+.links-TB:hover{
+    text-decoration: underline;
+    color: rgb(36, 121, 239); 
 }
