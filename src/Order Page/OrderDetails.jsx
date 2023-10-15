@@ -1,8 +1,7 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 import CAFFEINE_1 from '../Images/CAFFEINE_1.jpg'
-import "../Style/orderDetails.css";
-
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import CreditCardOutlinedIcon from '@mui/icons-material/CreditCardOutlined';
@@ -10,9 +9,9 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
 import ExpandCircleDownOutlinedIcon from '@mui/icons-material/ExpandCircleDownOutlined';
 import HomeIcon from '@mui/icons-material/Home';
-import Footer from "../Footer/Footer";
 import DSSaha_TB from "./DSSaha_TB";
-import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
+import "../Style/orderDetails.css";
 
 
 const OrderDetails = () => {
@@ -141,8 +140,6 @@ const OrderDetails = () => {
           </div>
         </div>
       </div>
-
-
       <div>
         <Footer />
       </div>

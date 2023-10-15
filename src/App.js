@@ -14,10 +14,6 @@ function App() {
 
         </Routes>
       </BrowserRouter>
-
-      {/* <OrderDetails /> */}
-      {/* <Order /> */}
-      {/* <DSSaha_TB /> */}
     </>
   );
 }

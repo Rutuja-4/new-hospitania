@@ -1,11 +1,10 @@
 import React from 'react';
-import '../Style/order.css'
-import Footer from '../Footer/Footer';
-
+import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import DSSaha_TB from './DSSaha_TB';
-import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
+import '../Style/order.css'
 
 const Order = () => {
     return (
@@ -92,14 +91,12 @@ const Order = () => {
                                 </tr>
 
                                 <tr>
-
                                     <td className='orderId-TB'>
                                         <Link to='/orderDetails' className='links-TB' >502TR872W2  </Link>
                                     </td>
                                     <td>	April 04, 2018</td>
                                     <td> <button className='btn4'> Delivered </ button> </td>
                                     <td> $2,133.90</td>
-
                                 </tr>
 
                                 <tr>
@@ -109,19 +106,15 @@ const Order = () => {
                                     <td>March 30, 2018 </td>
                                     <td> <button className='btn4'> Delivered </ button> </td>
                                     <td> $86.40</td>
-
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-
                 </div>
-
             </div>
             <div>
                 <Footer />
             </div>
-
         </div>
     )
 }
