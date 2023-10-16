@@ -11,7 +11,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Order />} />
           <Route path="/orderDetails" element={<OrderDetails />} />
-
         </Routes>
       </BrowserRouter>
     </>
