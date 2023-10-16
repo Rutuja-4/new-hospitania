@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.fontSizeP{
+    font-size: 15px;
+}
+
+.blue-btn-TB {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: flex-end;
+    margin-left: 155px;
+    margin: 15px 0;
+    width: 120px;
+    float: right;
+    background-color: rgb(78,151,253);
+    color: white ;
+    padding: 5px;
+
+}
+.blue-btn-TB:hover{
+    background-color: rgb(12, 102, 228);
+    color: white ;
+}
+.order-tb{
+    width: 680px;
+    line-height: 2;
+    position: relative;
+    left: 450px;
+    font-size: 13px;
+}
+
+.breadcrumb{
+    float: right;
+}
+
+.btn1{
+    background-color: rgb(231,246,248);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    height: 28px;
+}
+
+.btn2{
+     background-color: rgb(251,234,236);
+     color: rgb(220,53,69);
+     border: none;
+     border-radius: 20px;
+     font-weight: bold;
+}
+
+.btn3{
+     background-color: rgb(255,249,230);
+     color: rgb(255,193,7);
+     border: none;
+     border-radius: 20px;
+     font-weight: bold;
+}
+
+.ds{
+    position: absolute;
+    top: 10px;
+}
+
+.btn4{
+    background-color: rgb(233,246,236);
+    color: rgb(40,167,69);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+#headings{
+    background-color: rgb(249,251,253);
+    color: rgb(149,180,218);
+    font-weight: bold;
+
+}
+.firstDiv{
+    background-color: rgb(52,58,64);
+    color: white;
+    height: 190px;
+}
+.orderId-TB{
+    color:  rgb(78,151,253);
+    font-weight: bold;
+  
+}
+.links-TB{
+     text-decoration: none;
+     color:  rgb(78,151,253);
+}
+
+.links-TB:hover{
+    text-decoration: underline;
+    color: rgb(36, 121, 239); 
+}

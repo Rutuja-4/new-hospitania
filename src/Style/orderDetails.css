@@ -1,0 +1,109 @@
+
+.fontSizeP {
+  font-size: 15px;
+}
+del {
+  color: rgb(153, 156, 159);
+  padding-right: 5px;
+}
+
+.discount {
+  color: rgb(40, 167, 69);
+  font-weight: 700;
+}
+.card1-TB {
+  display: flex;
+  margin: 0;
+}
+
+.custom-border {
+  position: relative;
+  left: 500px;
+  width: 100%;
+  border: 1px solid rgba(246, 242, 242, 0.999);
+}
+
+.returnItem-TB {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.returnItem-TB:hover {
+  text-decoration: underline;
+}
+
+.order-box {
+  padding: 10px;
+}
+
+#hr1 {
+  width: 630px;
+  margin: 0 15px 0 15px;
+}
+
+.shipping {
+  height: 50px;
+  width: 2px;
+  background-color: rgb(15, 133, 236);
+  margin-left: 15px;
+}
+
+.list {
+  display: block;
+  font-size: 10px;
+}
+
+.shippingGrey {
+  height: 45px;
+  width: 2px;
+  margin-left: 10px;
+  background-color: rgb(224, 228, 240);
+  margin-left: 15px;
+}
+
+.last {
+  display: flex;
+}
+
+.trackingDiv {
+  padding-bottom: 15px;
+  text-align: right;
+}
+
+.localShip {
+  color: orange;
+}
+
+.t-para {
+  margin-bottom: 45px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: rgb(15, 133, 236);
+  padding: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+.circle-grey {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(241, 243, 248);
+  padding: 5px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.track {
+  color: white;
+  margin-bottom: 5px;
+  padding-bottom: -5px;
+}
+
+.track-grey {
+  margin-bottom: 5px;
+  padding-bottom: -5px;
+  color: rgb(186, 190, 197);
+}

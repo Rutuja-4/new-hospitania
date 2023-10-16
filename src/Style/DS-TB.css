@@ -1,0 +1,41 @@
+
+.ds-table {
+  border-radius: 10px;
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 110px;
+  margin-left: 100px;
+}
+
+.DS-TB {
+  background-color: rgb(237, 244, 255);
+  color: rgb(78, 151, 253);
+  font-weight: bold;
+  height: 55px;
+  width: 55px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.wl {
+  color: rgb(78, 151, 253);
+}
+
+.wl:hover {
+  color: black;
+}
+
+.DS-TB:hover {
+  background-color: rgb(78, 151, 253);
+  color: rgb(237, 244, 255);
+}
+
+.arrow-TB {
+  display: inline-block;
+  margin-left: auto;
+}
