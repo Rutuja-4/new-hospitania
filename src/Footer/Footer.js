@@ -62,14 +62,10 @@ function Footer() {
               <li>Dribble</li>
             </ul>
             </div>
-<<<<<<< HEAD
-        </div>
-=======
           
           
             
       </div>
->>>>>>> origin/main
     </div>
     </>
   )
