@@ -10,6 +10,7 @@ const ULSize={
 }
 function Footer() {
   return (
+    <>
     <div className={style.mainfooter}>
       <div className={style.footerflex}>
             <div>
@@ -61,8 +62,16 @@ function Footer() {
               <li>Dribble</li>
             </ul>
             </div>
+<<<<<<< HEAD
         </div>
+=======
+          
+          
+            
+      </div>
+>>>>>>> origin/main
     </div>
+    </>
   )
 }
 

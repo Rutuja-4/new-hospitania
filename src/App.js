@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import OrderDetails from "./Order Page/OrderDetails";
 import Order from './Order Page/Order'
@@ -14,6 +15,20 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
+=======
+// import Carausal from "./Footer/Carausal";
+import Footer from "./Footer/Footer";
+import Home from "./Home/Home/Home";
+// import Shoppage from "./Shop-Pages/Shoppage";
+// import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom'
+
+function App() {
+  return (
+    <div className="App">
+      <Home/>
+      <Footer/>
+    </div>
+>>>>>>> origin/main
   );
 }
 

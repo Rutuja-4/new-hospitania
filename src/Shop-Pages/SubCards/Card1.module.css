@@ -1,0 +1,33 @@
+.mainPage{
+    display: flex;
+}
+.firstColoumn{
+    display: flex;
+    flex: 1;
+    height: 450px;
+    width: 300px;
+    background-color: #EDF1FC;
+    border-radius: 10px;
+    margin: 20px;
+}
+.imageContainer{
+        margin: auto;
+}
+
+.secondColoumn{
+    flex: 1;
+    margin: 30px;
+}
+.imageTitle{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.productInfo{
+    font-weight: bold;
+    color: rgb(91, 88, 88);
+    font-size: 14px;
+}
+.thirdColoumn{
+    flex: 1;
+    margin: 20px;
+}
